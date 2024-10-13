@@ -23,6 +23,6 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
     - name: Set executable permissions for Selenium Manager
-      run: chmod +x /home/runner/work/SeleniumIDE/SeleniumIDE/SeleniumIDE/bin/Debug/net6.0/selenium-manager/linux/selenium-manager
+      run: chmod +x /home/runner/work/Selenium-Web-Driver/Selenium-Web-Driver/Selenium-Web-Driver/bin/Debug/net6.0/selenium-manager/linux/selenium-manager
     - name: Run tests
       run: dotnet test --no-build --verbosity normal
